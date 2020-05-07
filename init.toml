@@ -18,10 +18,7 @@
 
   default_indent = 4
   expand_tab = true
-  
-  #indentLine_enabled = 0
-  disabled_plugins = ["indentLine"]
-
+ 
   bootstrap_after = "myspacevim#after"
 
 # Enable autocomplete layer

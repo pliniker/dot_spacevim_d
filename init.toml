@@ -15,9 +15,14 @@
   buffer_index_type = 4
   enable_tabline_filetype_icon = true
   enable_statusline_mode = false
+
+  default_indent = 4
+  expand_tab = true
   
-  indentLine_enabled = 0
+  #indentLine_enabled = 0
   disabled_plugins = ["indentLine"]
+
+  bootstrap_after = "myspacevim#after"
 
 # Enable autocomplete layer
 [[layers]]

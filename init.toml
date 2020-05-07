@@ -3,7 +3,7 @@
   # set spacevim theme. by default colorscheme layer is not loaded,
   # if you want to use more colorscheme, please load the colorscheme
   # layer
-  colorscheme = "palenight"
+  colorscheme = "OceanicNext"
   colorscheme_bg = "dark"
   # Disable guicolors in basic mode, many terminal do not support 24bit
   # true colors
@@ -36,13 +36,26 @@
   name = 'colorscheme'
 
 [[layers]]
+  name = "denite"
+
+[[layers]]
+  name = "tools"
+
+[[layers]]
+  name = "ui"
+  enable_sidebar = true
+
+[[layers]]
+  name = "VersionControl"
+
+[[layers]]
   name = "lang#python"
 
 [[layers]]
   name = "lang#rust"
 
 [[layers]]
-  name = "VersionControl"
+  name = "lang#markdown"
 
 [[layers]]
   name = "lsp"
@@ -53,15 +66,6 @@
   [layers.override_cmd]
     rust = ["rust-analyzer"]
 
-[[layers]]
-  name = "tools"
-
-[[layers]]
-  name = "ui"
-  enable_sidebar = true
-
-[[layers]]
-  name = "denite"
-
-[[layers]]
-  name = "lang#markdown"
+[[custom_plugins]]
+  name = "mhartington/oceanic-next"
+  merged = 0

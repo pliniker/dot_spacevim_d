@@ -1,2 +1,1 @@
-# dot_spacevim_d
-spacevim config
+.SpaceVim.d

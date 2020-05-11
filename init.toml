@@ -12,15 +12,16 @@
 
   default_indent = 4
   expand_tab = true
+
+  disabled_plugins = ["Shougo#deoplete"]
  
   bootstrap_before = "myspacevim#before"
   bootstrap_after = "myspacevim#after"
 
-[[layers]]
-  name = 'autocomplete'
-  auto_completion_return_key_behavior = "complete"
-  auto_completion_tab_key_behavior = "smart"
-  auto_completion_delay = 777
+#[[layers]]
+#  name = 'autocomplete'
+#  auto_completion_return_key_behavior = "complete"
+#  auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
   name = 'shell'
@@ -47,6 +48,8 @@
   name = "lang#python"
 
 [[layers]]
+  # Notes:
+  #  - Make sure racer is not installed.
   name = "lang#rust"
   format-autosave = true
   recommended-style = true
@@ -55,6 +58,9 @@
   name = "lang#markdown"
 
 [[layers]]
+  # Notes:
+  #  - every keystroke is sent to the language server
+  #  - rls and rust-analyzer eat CPU and therefore battery
   name = "lsp"
   filetypes = [
 #    "rust",

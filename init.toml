@@ -57,15 +57,15 @@
 [[layers]]
   name = "lang#markdown"
 
-[[layers]]
+#[[layers]]
   # Notes:
   #  - every keystroke is sent to the language server
   #  - rls and rust-analyzer eat CPU and therefore battery
-  name = "lsp"
-  filetypes = [
+#  name = "lsp"
+#  filetypes = [
 #    "rust",
-    "python"
-  ]
+#    "python"
+#  ]
 #  [layers.override_cmd]
 #    rust = ["rust-analyzer"]
 

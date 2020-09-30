@@ -72,3 +72,7 @@
 [[custom_plugins]]
   name = "mhartington/oceanic-next"
   merged = 0
+
+[[custom_plugins]]
+  name = "jamessan/vim-gnupg"
+  merged = 0
